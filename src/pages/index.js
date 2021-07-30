@@ -246,7 +246,7 @@ const HomePage = () => {
                             text="Dostawy realizujemy własnym transportem w wyznaczonych strefach dostaw w godzinach:"
                             title="Dostawy"
                             timeFrame="06:00 - 22:00"
-                            activeWeekDays={["PN", "ŚR"]}/>
+                            activeWeekDays={["PN", "ŚR", "PT"]}/>
                         <OrderDetails
                             icon="support_agent"
                             text="Zamówienia przyjmujemy telefonicznie lub poprzez komunikator Facebook Messenger® w godzinach:"
