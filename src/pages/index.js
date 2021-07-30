@@ -190,7 +190,7 @@ const HomePage = () => {
                     <Background style={{background: "url(/images/hero-background.jpg) center/cover no-repeat"}}/>
                     <HeroContentGrid>
                         <HeroHeading>
-                            Zmieniamy <span style={{color: color.amber(500)}}>się</span> na lepsze
+                            Zmieniamy <span style={{color: color.green(600)}}>się</span> na lepsze
                         </HeroHeading>
                         <HeroButtonGroup>
                             <ContactButton
@@ -221,20 +221,20 @@ const HomePage = () => {
                         <ZoneRate
                             value="1 zł"
                             label="Koszt dostawy"
-                            color={color.amber(500)}/>
+                            color={color.green(600)}/>
                         <ZoneRate
                             value="10 zł"
                             label={"Minimalna wartość\nzamówienia"}
-                            color={color.amber(500)}/>
+                            color={color.green(600)}/>
                         <ZoneRatesSeparator/>
                         <ZoneRate
                             value="10 zł"
                             label="Koszt dostawy"
-                            color={color.amber(700)}/>
+                            color={color.green(800)}/>
                         <ZoneRate
                             value="100 zł"
                             label={"Minimalna wartość\nzamówienia"}
-                            color={color.amber(700)}/>
+                            color={color.green(800)}/>
                     </ZoneRatesGrid>
                     <ZoneRatesMap src="/images/delivery-map.png" alt="Mapa stref dostaw"/>
                 </ZoneMapGrid>
@@ -256,14 +256,14 @@ const HomePage = () => {
                     </OrderDetailsGrid>
                 </Section>
                 <ZoneCitiesGrid>
-                    <ZoneCities label="Strefa 1" indicator={color.amber(500)} cities="Poznań, Babki, Borówiec, Czapury, Dachowa, Daszewice, Gądki, Jaryszki, Kamionki,
+                    <ZoneCities label="Strefa 1" indicator={color.green(600)} cities="Poznań, Babki, Borówiec, Czapury, Dachowa, Daszewice, Gądki, Jaryszki, Kamionki,
                             Koninko, Robakowo, Skrzynki, Szczytniki, Wiórek, Baranowo, Bogucin, Chyby, Dąbrówka, Dopiewiec,
                             Dopiewo, Garby, Głuchowo, Gołuski, Gowarzewo, Jasin, Jelonek, Kiekrz, Komorniki, Koziegłowy,
                             Kórnik, Kruszewnia, Luboń, Łęczyca, Palędzie, Plewiska, Przeźmierowo, Puszczykowo, Rabowice,
                             Rogalinek, Rosnowo, Sasinowo, Skórzewo, Suchy Las, Swadzim, Swarzędz, Szewce, Tanibórz, Tulce,
                             Wiry, Wysogotowo, Zalasewo, Złotniki, Żerniki, Cerekwica, Napachanie, Mrowino, Rokietnica,
                             Tarnowo Podgórne."/>
-                    <ZoneCities label="Strefa 2" indicator={color.amber(700)} cities="Stęszew, Zaniemyśl, Środa wlkp, Kostrzyn wlkp, Jeziory małe, Jeziory wielkie,
+                    <ZoneCities label="Strefa 2" indicator={color.green(800)} cities="Stęszew, Zaniemyśl, Środa wlkp, Kostrzyn wlkp, Jeziory małe, Jeziory wielkie,
                             Topola, Zmysłowo, Urniszewo, Kleszczewo, Paczkowo, Siekierki Wielkie, Siekierki Małe, Trzek,
                             Kobylnica, Gruszczyn, Bugaj, Krzyszkowo, Przecławek, Pamiątkowo."/>
                 </ZoneCitiesGrid>
